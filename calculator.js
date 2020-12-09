@@ -37,7 +37,6 @@ const calculateUserInput = function (error, promptInput) {
       } else {
         console.log(`${num1} / ${num2} = ${result}`);
         break;
-
       }
 
     default:
