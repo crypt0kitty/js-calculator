@@ -20,7 +20,6 @@ const calculateUserInput = function (error, promptInput) {
       result = num1 - num2;
       console.log(`${num1} - ${num2} = ${result}`);
       break;
-
     case '*':
     case 'multiply':
       result = num1 * num2;
