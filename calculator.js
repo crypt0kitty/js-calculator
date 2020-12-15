@@ -1,8 +1,6 @@
 const calculateUserInput = function (error, promptInput) {
   //   console.log('This is the value of the promptInput variable that got passed in by prompt, after our prompt package collect user input', promptInput);
-
   let result;
-
   //user input
   const num1 = parseFloat(promptInput.num1);
   const num2 = parseFloat(promptInput.num2);
