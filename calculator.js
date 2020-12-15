@@ -14,7 +14,6 @@ const calculateUserInput = function (error, promptInput) {
       result = num1 + num2;
       console.log(`${num1} + ${num2} = ${result}`);
       break;
-
     case '-':
     case 'subtract':
       result = num1 - num2;
@@ -25,11 +24,9 @@ const calculateUserInput = function (error, promptInput) {
       result = num1 * num2;
       console.log(`${num1} * ${num2} = ${result}`);
       break;
-
     case '/':
     case 'divide':
       result = num1 / num2;
-
       if (num1 === 0 || num2 === 0) {
         console.log('You cannot divide by zero');
         return
@@ -37,7 +34,6 @@ const calculateUserInput = function (error, promptInput) {
         console.log(`${num1} / ${num2} = ${result}`);
         break;
       }
-
     default:
       console.log('unsupported operator');
       break;
